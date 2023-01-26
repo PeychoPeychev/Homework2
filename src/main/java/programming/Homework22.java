@@ -8,9 +8,8 @@ public class Homework22 {
         System.out.println("Please enter your name:");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.next();
-        System.out.println("Please re-enter your name:");
-        String rename =scanner.next();
-        boolean equals1 = name.equals(rename);
-        System.out.println("\"" + name + "\" equals \"" + rename + "\"? " + equals1);
+        System.out.println("Please enter your username:");
+        String username =scanner.next();
+        System.out.println(name.equalsIgnoreCase(username));
     }
 }

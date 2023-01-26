@@ -5,7 +5,6 @@ public class Homework24 {
         String firstName = "Peycho";
         String lastName = " Peychev";
         String city = " born in Veliki Preslav";
-        String result = firstName+lastName+city;
-        System.out.println(result);
+        System.out.println(firstName + "" + lastName + "" + city);
     }
 }
